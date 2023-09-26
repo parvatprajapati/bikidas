@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?edomyx');
+  src:  url('fonts/icomoon.eot?edomyx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?edomyx') format('truetype'),
+    url('fonts/icomoon.woff?edomyx') format('woff'),
+    url('fonts/icomoon.svg?edomyx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-send:before {
+  content: "\e906";
+}
+.icon-Behance:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-dribbble-logo:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-facebook-logo:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-instagram:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-linkedin:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-youtube:before {
+  content: "\e905";
+  color: #fff;
+}
