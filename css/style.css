@@ -1330,6 +1330,10 @@ footer{
 
 
 @media only screen and (max-width: 768px) {
+	.expDetailsWrapper .videoColumn{
+		padding-left:0;
+		padding-right:0;
+	}
     .buttonGS{
         width: 80%;
         min-width: 260px;
